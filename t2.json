@@ -1,0 +1,14 @@
+{
+    "version": "0.1.0",
+    "description": "TUI app to track project time",
+    "homepage": "https://github.com/franpfeiffer/t2",
+    "license": "MPL-2.0",
+    "url": "https://github.com/franpfeiffer/t2/releases/download/0.1.0/t2-windows-amd64.zip",
+    "bin": "t2-windows-amd64.exe",
+    "checkver": {
+        "github": "franpfeiffer/t2"
+    },
+    "autoupdate": {
+        "url": "https://github.com/franpfeiffer/t2/releases/download/$version/t2-windows-amd64.zip"
+    }
+}
